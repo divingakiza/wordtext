@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text is nowrap and pointer</title>
+  <style>
+    .tyt {
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      /* justify-content: space-between; */
+    }
+
+    .ttt {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tyt">
+    <p style="pointer-events: none;">fefefe</p>
+    <p>edfefefe</p>
+    <p>efefef</p>
+  </div>
+  <div class="ttt">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, beatae!
+  </div>
+</body>
+
+</html>
